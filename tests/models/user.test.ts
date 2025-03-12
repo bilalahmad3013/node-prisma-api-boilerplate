@@ -3,7 +3,7 @@ import { prismaMock } from "../prismaMock";
 describe("User Model (Mocked Prisma)", () => {
   it("should create a new user", async () => {
     const mockUser = {
-      id: 1,
+      id: '3',
       email: "test@example.com",
       name: "John Doe",
     };
