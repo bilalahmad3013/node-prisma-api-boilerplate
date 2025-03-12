@@ -5,6 +5,8 @@ import logger from "morgan";
 import routes from "./routes/index";
 import { connectDB } from "./db";
 import { apiFailure } from "./utils/apiHandler";
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
 
